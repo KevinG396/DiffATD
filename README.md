@@ -2,9 +2,14 @@
 Implementation of _Online Feedback Efficient Active Target Discovery in Partially Observable Environments_
 
 <div align="center">
+
+[![arXiv](https://img.shields.io/badge/arXiv-2505.06535-b31b1b.svg)](https://arxiv.org/abs/2505.06535)
+[Anindya Sarkar*](https://scholar.google.co.in/citations?user=2hQyYz0AAAAJ&hl=en),
+[Binglin Ji*](https://keving396.github.io/kevinji.github.io//),
+[Yevgeniy Vorobeychik](https://vorobeychik.com/)
+  
 <img src="imgs/Fig1_intro.png" width="650">
   
-[![arXiv](https://img.shields.io/badge/arXiv-2505.06535-b31b1b.svg)](https://arxiv.org/abs/2505.06535)
 </div>
 
 
