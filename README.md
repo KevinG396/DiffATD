@@ -11,6 +11,7 @@ Implementation of _Online Feedback Efficient Active Target Discovery in Partiall
   
 <img src="imgs/Fig1_intro.png" width="750">
 </div>
+
 This repository is the official implementation of the **NeurIPS 2025 paper** [_Online Feedback Efficient Active Target Discovery in Partially Observable Environments_](https://arxiv.org/abs/2505.06535). In this work, we introduce Diffusion-guided Active Target Discovery (DiffATD), a novel method that leverages diffusion dynamics for active target discovery within a limited sampling budget. 
 
 ## Installation
