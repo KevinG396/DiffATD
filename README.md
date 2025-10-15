@@ -1,8 +1,12 @@
 # DiffATD 
 Implementation of _Online Feedback Efficient Active Target Discovery in Partially Observable Environments_
-<div align="left">
-[![arXiv](https://img.shields.io/badge/arXiv-2505.06535-b31b1b.svg)](https://arxiv.org/abs/2505.06535)
-</div>
+
+<p align="left">
+  <a href="https://arxiv.org/abs/2505.06535">
+    <img src="https://img.shields.io/badge/arXiv-2505.06535-b31b1b.svg" alt="arXiv">
+  </a>
+</p>
+
 
 ## Installation
 Install required Tensorflow, JAX and Keras version:
