@@ -27,21 +27,20 @@ pip install --upgrade keras-cv
 pip install wandb albumentations torchmetrics ax-platform
 ```
 
-## Train your own diffusion model:
+## Train your own diffusion model
 * Train your own diffusion model using:
 * `python train_ddim.py --config=/path/to/config --data_root=/path/to/data/root --run_dir=/path/to/save/model/`.
 * For example, train on MNIST using:
 * `train_ddim.py --config=configs/training/ddim_train_mnist.yaml --data_root=data/ --run_dir=trained_models/`
 * config your data in .yaml file
 
-
-## Inference DiffATD
-An Overview of DiffATD:
+## An Overview of DiffATD:
 
 <div align="center">
 <img src="imgs/main_figure.png" width="700">
 </div>
 
+## Inference DiffATD
 * First, choose one of the configs in `configs/inference`, you can edit this config.
 * Then run inference using:
 * `python inference_diffatd.py --config=/path/to/inference/config --data_root=/path/to/data/root --target_img=/path/to/target/img`
@@ -49,5 +48,5 @@ An Overview of DiffATD:
 * Your results will be saved in `trained_models/your_model/inference/DiffATD`.
 
 
-## NOTE:
+## NOTE
 * If you want to test MNIST, please first modify reward model's parameters in `pix_nn.py`, then modify `datasets.py`'s read_image function's channels to 1, and modify `DiffATD.py`'s' block_size to 1, to reproduce the results. It will still be fine if you want to do block_size larger than 1.
