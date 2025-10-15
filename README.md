@@ -9,7 +9,7 @@ Implementation of _Online Feedback Efficient Active Target Discovery in Partiall
 [Binglin Ji*](https://keving396.github.io/kevinji.github.io//),
 [Yevgeniy Vorobeychik](https://vorobeychik.com/)
   
-<img src="imgs/Fig1_intro.png" width="650">
+<img src="imgs/Fig1_intro.png" width="750">
   
 </div>
 
