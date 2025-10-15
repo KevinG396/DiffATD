@@ -1,10 +1,14 @@
 # Online Feedback Efficient Active Target Discovery in Partially Observable Environments
 
-## Install required Tensorflow, JAX and Keras version.
+## Installation
+Install required Tensorflow, JAX and Keras version:
 ```bash
 pip install --extra-index-url https://pypi.nvidia.com tensorflow[and-cuda]==2.15.0
 pip install --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jax[cuda12_pip]==0.4.26
 pip install --upgrade keras==3.1.1
+```
+Use the following commands to install the necessary dependencies to run the code:
+```bash
 pip install --upgrade keras-cv
 pip install wandb albumentations torchmetrics ax-platform
 ```
