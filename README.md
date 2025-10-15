@@ -8,13 +8,18 @@
 * `pip install wandb albumentations torchmetrics ax-platform`
 
 ## Train Diffusion
-* Train your own diffusion model using `python train_ddim.py --config=/path/to/config --data_root=/path/to/data/root --run_dir=/path/to/save/model/`.
-* For example, train on MNIST using `train_ddim.py --config=configs/training/ddim_train_mnist.yaml --data_root=data/ --run_dir=trained_models/`, config your data in .yaml file
+* Train your own diffusion model using:
+* `python train_ddim.py --config=/path/to/config --data_root=/path/to/data/root --run_dir=/path/to/save/model/`.
+* For example, train on MNIST using:
+* `train_ddim.py --config=configs/training/ddim_train_mnist.yaml --data_root=data/ --run_dir=trained_models/`
+* config your data in .yaml file
 
 
 ## Inference DiffATD
 * First, choose one of the configs in `configs/inference`, you can edit this config.
-* Then run inference using `python inference_diffatd.py --config=/path/to/inference/config --data_root=/path/to/data/root --target_img=/path/to/target/img` e.g. `python inference_diffatd.py --config=configs/inference/face.yaml --data_root=data --target_img sample_images/07013.png --mask_img sample_images/07013_mask.png` 
+* Then run inference using:
+* `python inference_diffatd.py --config=/path/to/inference/config --data_root=/path/to/data/root --target_img=/path/to/target/img`
+* e.g. `python inference_diffatd.py --config=configs/inference/face.yaml --data_root=data --target_img sample_images/07013.png --mask_img sample_images/07013_mask.png` 
 * Your results will be saved in `trained_models/your_model/inference/DiffATD`.
 
 
