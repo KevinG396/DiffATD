@@ -27,14 +27,14 @@ pip install --upgrade keras-cv
 pip install wandb albumentations torchmetrics ax-platform
 ```
 
-## Train your own diffusion model
+## Train the Diffusion Model
 * Train your own diffusion model using:
 * `python train_ddim.py --config=/path/to/config --data_root=/path/to/data/root --run_dir=/path/to/save/model/`.
 * For example, train on MNIST using:
 * `train_ddim.py --config=configs/training/ddim_train_mnist.yaml --data_root=data/ --run_dir=trained_models/`
 * config your data in .yaml file
 
-## An Overview of DiffATD:
+## An Overview of DiffATD
 
 <div align="center">
 <img src="imgs/main_figure.png" width="700">
