@@ -1,4 +1,4 @@
-# DiffATD: Online Feedback Efficient Active Target Discovery in Partially Observable Environments
+# Online Feedback Efficient Active Target Discovery in Partially Observable Environments
 
 ## Install Tensorflow, JAX and Keras
 * `pip install --extra-index-url https://pypi.nvidia.com tensorflow[and-cuda]==2.15.0`
