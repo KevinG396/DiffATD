@@ -36,6 +36,12 @@ pip install wandb albumentations torchmetrics ax-platform
 
 
 ## Inference DiffATD
+An Overview of DiffATD:
+
+<div align="center">
+<img src="imgs/main_figure.png" width="700">
+</div>
+
 * First, choose one of the configs in `configs/inference`, you can edit this config.
 * Then run inference using:
 * `python inference_diffatd.py --config=/path/to/inference/config --data_root=/path/to/data/root --target_img=/path/to/target/img`
