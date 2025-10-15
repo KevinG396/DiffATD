@@ -1,8 +1,7 @@
 # DiffATD 
 Implementation of _Online Feedback Efficient Active Target Discovery in Partially Observable Environments_
 <div align="left">
-[![arXiv](https://img.shields.io/badge/arXiv-2406.01917-red
-)](https://www.arxiv.org/abs/2505.06535)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.06535-b31b1b.svg)](https://arxiv.org/abs/2505.06535)
 </div>
 
 ## Installation
