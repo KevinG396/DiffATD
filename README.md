@@ -1,4 +1,4 @@
-# DiffATD 
+# DiffATD: Diffusion-guided Active Target Discovery
 Implementation of _Online Feedback Efficient Active Target Discovery in Partially Observable Environments_
 
 <div align="center">
