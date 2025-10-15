@@ -13,7 +13,7 @@ Implementation of _Online Feedback Efficient Active Target Discovery in Partiall
   
 </div>
 
-
+We introduce Diffusion-guided Active Target Discovery (DiffATD), a novel method that leverages diffusion dynamics for active target discovery within a limited sampling budget. 
 
 ## Installation
 Install required Tensorflow, JAX and Keras version:
