@@ -4,6 +4,7 @@ Implementation of _Online Feedback Efficient Active Target Discovery in Partiall
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.06535-b31b1b.svg)](https://arxiv.org/abs/2505.06535)
+[![Project Page](https://img.shields.io/badge/Project-Website-green)]()
 
 [Anindya Sarkar*](https://scholar.google.co.in/citations?user=2hQyYz0AAAAJ&hl=en),
 [Binglin Ji*](https://keving396.github.io/kevinji.github.io//),
